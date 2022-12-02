@@ -63,7 +63,7 @@ Setup<br>
 Clone this repository to your desired folder:<br>
 
 1. Clone this repository or download the Zip folder:"<br>
-$ git clone <https://github.com/ismailmunyentwari9/My-portfolio)><br>
+$ git clone <(https://github.com/ismailmunyentwari9/Full_portfolio/branches)><br>
 2. Navigate to the location of the folder in your machine:<br>
 (https://github.com/ismailmunyentwari9/My-portfolio)<br>
 **3. Press Enter to navigate to your local clone.**
