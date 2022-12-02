@@ -9,14 +9,14 @@ body {
 }
 
 header {
-  padding-top: 2rem;
+  padding-top: 3rem;
   margin-bottom: 5rem;
   display: flex;
   justify-content: space-between;
 }
 
 a > .sp1 {
-  width: 76px;
+  width: 75px;
   height: 20px;
   font-weight: 700;
   font-size: 30px;
