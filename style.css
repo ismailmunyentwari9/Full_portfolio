@@ -84,7 +84,7 @@ li {
   list-style-type: none;
 }
 
-.social-media > a > li > img {
+.social-media > li > a > img {
   height: 20px;
   font-size: 2px;
   margin-right: 20px;
