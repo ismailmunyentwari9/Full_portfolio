@@ -195,7 +195,6 @@ button {
   border: 1px solid #435c9d;
   border-radius: 14px;
   margin-top: 3rem;
-
   transition: color 0.5s ease;
 }
 
@@ -287,7 +286,4 @@ h6 {
   display: grid;
   row-gap: 50px;
   grid-template-rows: repeat(6, 1fr);
-}
-
-.formy {
 }
