@@ -155,6 +155,7 @@ p {
 }
 
 .lang {
+  float:left; 
   width: 29px;
   height: 16px;
   list-style: none;
@@ -193,7 +194,7 @@ button {
   background: #fff;
   border: 1px solid #435c9d;
   border-radius: 14px;
-  margin-top: 30px;
+  margin-top: 60px;
   transition: color 0.5s ease;
 }
 
@@ -285,4 +286,8 @@ h6 {
   display: grid;
   row-gap: 50px;
   grid-template-rows: repeat(6, 1fr);
+}
+
+.formy{
+  
 }
