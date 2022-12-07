@@ -287,3 +287,81 @@ h6 {
   row-gap: 50px;
   grid-template-rows: repeat(6, 1fr);
 }
+.formy{
+  margin-top:2rem;
+width: 375px;
+height: 779px;
+background-image:url('./image/form2.png'),url('./image/contactme.png');
+background-size:cover;
+background-repeat:no-repeat;
+}
+.h002{
+  /* Header / 2 */
+text-align:center;
+padding-top:3em;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Neutrals/N0 */
+
+color: #FFFFFF;
+}
+.info-form{
+   justify-content:center;
+   text-align:center;
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  justify-content: center;
+}
+.h003{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+
+/* Primary/B50 */
+
+color: #EBEBFF;
+}
+form{
+  
+}
+.input{
+  background: #FFFFFF;
+/* Base/100 */
+font-size:25px;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+height:3rem;
+margin-top:1rem;
+border-radius:8px;
+width:20rem;
+
+}
+.mssg
+{
+  background: #FFFFFF;
+/* Base/100 */
+
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+height:8rem;
+font-size:27px;
+margin-top:1rem;
+border-radius:8px;
+width:20rem;
+}
