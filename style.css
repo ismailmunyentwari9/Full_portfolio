@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url('./image/body.png');
+  background-image: url("./image/body.png");
   background-repeat: no-repeat;
 }
 
@@ -115,7 +115,7 @@ a {
 }
 
 h1 {
-  font-family: 'Poppines', sans-serif;
+  font-family: "Poppines", sans-serif;
   font-style: normal;
   font-weight: 700;
   color: #172b4d;
@@ -126,7 +126,7 @@ h1 {
 
 ul {
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   gap: 10px;
   font-weight: 600;
@@ -146,7 +146,7 @@ p {
   width: 295px;
   height: 76px;
   margin: 8px 7px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -155,10 +155,11 @@ p {
 }
 
 .lang {
+  float: left;
   width: 29px;
   height: 16px;
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -177,7 +178,7 @@ h5 {
 }
 
 button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -193,7 +194,7 @@ button {
   background: #fff;
   border: 1px solid #435c9d;
   border-radius: 14px;
-  margin-top: 30px;
+  margin-top: 3rem;
   transition: color 0.5s ease;
 }
 
@@ -210,7 +211,7 @@ button:hover {
 }
 
 .contact {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-top: 30px;
   font-style: normal;
   font-weight: 500;
@@ -225,14 +226,14 @@ button:hover {
   margin: 10px 1px 5px 1px;
   color: #344563;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 24px;
   font-style: normal;
   font-weight: 500;
 }
 
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 36px 10px 20px 1px;
   margin: 2px;
   font-style: normal;
@@ -243,7 +244,7 @@ h6 {
 }
 
 .fitems li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -285,4 +286,102 @@ h6 {
   display: grid;
   row-gap: 50px;
   grid-template-rows: repeat(6, 1fr);
+}
+
+.formy {
+  padding-top: 4rem;
+  width: 375px;
+  height: 779px;
+  background-image: url("./image/form2.png"), url("./image/contactme.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h002 {
+  /* Header / 2 */
+  text-align: center;
+  padding-top: 3em;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N0 */
+
+  color: #fff;
+}
+
+.info-form {
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.h003 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+
+  text-align: center;
+
+  /* Primary/B50 */
+
+  color: #ebebff;
+}
+
+.input {
+  background: #fff;
+
+  /* Base/100 */
+  font-size: 16px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 3rem;
+  margin-top: 1rem;
+  width: 20rem;
+  padding-left: 1rem;
+}
+
+.mssg {
+  background: #fff;
+
+  /* Base/100 */
+  padding-left: 1rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 8rem;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.formy-btn {
+  margin-top: 1rem;
+  margin-left: -9rem;
+  padding: 1rem 2rem 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formy-btn:hover {
+  background: skyblue;
+  color: white;
 }
