@@ -520,7 +520,7 @@
 
   .ul002 > li > a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -537,7 +537,7 @@
 
   .sp1 {
     width: 30%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     margin-left: 5%;
     font-weight: 700;
@@ -547,7 +547,7 @@
   .main {
     display: grid;
     height: 90vh;
-    background-image: url('./image/header.png');
+    background-image: url("./image/header.png");
     background-color: white;
     background-size: 100%;
     background-position: center;
@@ -568,7 +568,7 @@
   .text {
     margin-block-start: 0;
     text-align: initial;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     width: 70%;
     font-size: 48px;
     line-height: 60px;
@@ -579,7 +579,7 @@
   .text2 {
     width: 70%;
     text-align: initial;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -588,7 +588,7 @@
   }
 
   .a {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1014,5 +1014,7 @@
   .formy-btn:hover {
     background: skyblue;
     color: white;
+    transform: rotateY(360deg);
+    transition: 2s;
   }
 }
