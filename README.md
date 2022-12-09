@@ -1,12 +1,11 @@
 <a name="readme-top"></a>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)<br>
-🛠 Built With<br>
--Tech Stack<br>
--Key Features<br>
+- [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 💻 Getting Started<br>
 -Setup<br>
 -Prerequisites<br>
@@ -14,8 +13,8 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-
-<!-- PROJECT DESCRIPTION -->
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 # 📖 [Portflolio website ] <a name="about-project"></a>
 
@@ -32,6 +31,7 @@ simple portfolio project, built with html5 and css3 including linter configuratt
 [Set up linters]<br>
 [Add navigation bar for mobile version]<br>
 [Add intro header section for mobile version]<br>
+[Add media queries(Responsiveness)]<br>
 **Tech Stack**<br>
 This portfolio project, was built with html5 and css3.
 
@@ -79,5 +79,14 @@ $ git clone <(https://github.com/ismailmunyentwari9/Full_portfolio/branches)><br
 ## ⭐️ Show your support <a name="support"></a>
 
 This is my second project we will  feel loved when you  give us some positive comments and likes 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank my partner sammy(https://github.com/Sammy3000)<br>who helped me to know where I have to correct the mistakes<br>
+I had done in my project 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+<a name="readme-top"></a>
+
