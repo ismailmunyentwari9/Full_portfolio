@@ -44,6 +44,7 @@ simple portfolio project, built with html5 and css3 including linter configuratt
 [Set up linters]<br>
 [Add navigation bar for mobile version]<br>
 [Add intro header section for mobile version]<br>
+[Add media queries(Responsiveness)]<br>
 **Tech Stack**<br>
 This portfolio project, was built with html5 and css3.
 
